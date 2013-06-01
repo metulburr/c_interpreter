@@ -6,3 +6,8 @@
 hello world
 >>> 
 
+
+
+#currently
+#EXEC to compile and execute
+#CLEAR to clear the buffer
