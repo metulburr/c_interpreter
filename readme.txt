@@ -1,3 +1,7 @@
+an attempt at making a c interpreter
+
+
+EXAMPLE:
 >>> #include <iostream>
 >>> int main(){
 >>> std::cout << "hello world" << std::endl;
