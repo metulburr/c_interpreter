@@ -2,19 +2,30 @@ an attempt at making a c interpreter
 
 
 EXAMPLE:
->>> BUFF
-MAIN
->>> cout << "test1" << endl;
->>> NAME using namespace std;
->>> PROC #include <iostream>
->>> MAIN
->>> EXEC
-test1
->>> cout << "test2" << endl;
->>> EXEC
-test1
-test2
->>> 
+MAIN >>> MAIN
+MAIN >>> PROC
+PROC >>> #include <iostream> 
+PROC >>> NAME using namespace std;
+NAME >>> FUNC
+FUNC >>> void test(){
+FUNC >>> cout << "in test()" << endl;
+FUNC >>> }
+FUNC >>> MAIN
+MAIN >>> test();
+in test()
+MAIN >>> cout << "after test" << endl;
+in test()
+after test
+MAIN >>> for (int i=0; i < 5; i++){cout << i << endl;}
+in test()
+after test
+0
+1
+2
+3
+4
+MAIN >>> 
+
 
 
 
