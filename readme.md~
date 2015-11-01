@@ -55,10 +55,10 @@ MAIN >>>
 
 
 
-currently
-PROC to enter preprocessor mode
-MAIN to enter main function
-FUNC to enter a new function
-NAME to enter a new namespace
-EXEC to compile and execute
-CLEAR to clear the buffer
+#currently
+#PROC to enter preprocessor mode
+#MAIN to enter main function
+#FUNC to enter a new function
+#NAME to enter a new namespace
+#EXEC to compile and execute
+#CLEAR to clear the buffer
